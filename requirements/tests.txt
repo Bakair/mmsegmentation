@@ -6,3 +6,4 @@ pytest
 regex
 xdoctest>=0.10.0
 yapf
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
