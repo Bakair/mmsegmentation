@@ -20,3 +20,6 @@ timm
 torch-fidelity==0.3.0
 torchmetrics==0.6.0
 transformers==4.19.2
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.5.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
