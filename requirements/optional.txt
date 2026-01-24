@@ -20,3 +20,6 @@ timm
 torch-fidelity==0.3.0
 torchmetrics==0.6.0
 transformers==4.19.2
+pyasn1>=0.6.2 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
